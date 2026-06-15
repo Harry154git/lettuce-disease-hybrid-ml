@@ -1,0 +1,7 @@
+tensorflow[and-cuda]
+scikit-learn
+pandas
+matplotlib
+seaborn
+opencv-python
+jupyter
