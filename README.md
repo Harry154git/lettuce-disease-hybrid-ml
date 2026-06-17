@@ -1,4 +1,4 @@
-readme_content = """# Lettuce Disease Severity Estimation & Classification using Hybrid Machine Learning
+## Lettuce Disease Severity Estimation & Classification using Hybrid Machine Learning
 
 Mata Kuliah: Pembelajaran Mesin 1  
 Pengembang: Harry Pratama Yunus  
@@ -116,9 +116,3 @@ Buka URL lokal yang muncul (biasanya `http://localhost:8501`) pada browser Anda 
 - **Drag-and-Drop Image Uploader**: Memudahkan pengguna mengunggah citra daun selada (`.jpg`, `.png`, `.jpeg`).
 - **Confidence Progress Bar**: Menampilkan persentase tingkat kepastian prediksi model SVM.
 - **LIME Interpretability Visualizer**: Menampilkan segmentasi superpixel untuk memperlihatkan area daun yang paling berpengaruh pada prediksi penyakit.
-"""
-
-with open("README.md", "w") as f:
-f.write(readme_content.strip())
-
-print("README.md file successfully generated.")
