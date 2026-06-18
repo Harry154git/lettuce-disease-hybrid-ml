@@ -10,12 +10,9 @@ st.set_page_config(page_title="Deteksi Penyakit Selada", layout="centered")
 
 @st.cache_resource
 def load_all_models():
-    
     extractor = load_model('models/efficientnet_extractor.keras')
-    
-    scaler_model = joblib.load('models/scaler.pkl') 
-    classifier = joblib.load('models/svm_model.pkl') 
-    
+    scaler_model = joblib.load('models/scaler_tuned.pkl')
+    classifier = joblib.load('models/svm_model_tuned.pkl')
     return extractor, scaler_model, classifier
 
 extractor, scaler, svm = load_all_models()
